@@ -1,25 +1,12 @@
-const color=prompt('enter color',);
 
-switch(color){
+let a=Number(prompt('enter Num',)) || 0;
 
-    case("red"): alert("apple");
+let c=a%2;
 
-    break;
+if(c == 0){
+    alert("c is ceven");
+}
 
-    case("yellow"): alert("banana");
-
-    break;
-
-    case("green"): alert("grass");
-
-    break;
-
-    case("square"): case("rectangle"): case("circle"):
-
-    alert("shape");
-
-    break;
-
-    default:
-        alert("i dont know");
+else{
+    alert("a is odd")
 }
